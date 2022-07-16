@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+             background: rosybrown; 
+        }
+
+        :focus{
+            background: darkgreen;
+        }
+   
+
+        div{
+           /*  background: pink; */
+        
+        }
+
+        .titulo{
+            color: rebeccapurple;
+        }
+
+        #titulo2{
+            color: seagreen;
+        }
+
+       /*  a[href="https://platzi.com/home"] {
+            color: blue;
+        } */
+
+        p{
+            text-align: center;
+            color: purple;
+            font-family: monospace;
+        }
+
+        span{
+            font-family: cursive;
+        }
+
+        /* el orden idel link - visited - hover - active */
+
+        a:link{
+            color: tomato;
+        }
+
+        a:visited{
+            color: aquamarine;
+        }
+
+        a:hover{
+            color: palevioletred;
+        }
+
+       a:active{
+            color: yellowgreen;
+        } 
+        
+        /* una opción */
+
+      /*   a:active{
+            position: relative;
+            top: 1px;
+        } */
+
+        
+       
+      /* comentarios -> alt shift A */
+        
+       
+
+        ol{
+           list-style: none;
+        }
+
+        ol li::before{
+            content: "\2022";
+            color: red;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+       
+       
+    </style>
+
+</head>
+<body>
+
+    <div class="titulo" >hola</div>
+    <div id="titulo2" >mundo</div>
+
+    <a href="https://platzi.com/home">Platzi</a>
+
+    <section>
+        <p>Clases de Css</p>
+        <span>Hecho por Platzi</span>
+    </section>
+    
+    <a href="http://radiomagica.pe/" target="_blank" >Ir a google</a>
+
+    <section>
+        
+        <abbr title="HyperText Markup">Tool</abbr>
+    </section>
+
+    <ol start="6" >
+        <li>He</li>
+        <li>She</li>
+        <li>It</li>
+    </ol>
+
+    <a href="https://www.google.com.pe"  target="_blank">Hello</a>
+
+    <section>
+        
+     <textarea name="" id="" cols="30" rows="10">escribe aquí</textarea>
+    </section>
+
+    <div contenteditable tabindex="3">
+        Today is Friday
+    </div>
+
+    <button>Click on me</button>
+
+
+
+</body>
+</html>

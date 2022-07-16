@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de selectores 3</title>
+
+    <style>
+        p{
+            color: darkblue;
+        }
+
+        p::first-letter{
+            color: brown;
+        }
+
+        p::before{
+            content: "🌎";
+        }
+
+        p::after{
+            content: "🐬";
+        }
+
+        p:hover{
+            color: darkorange;
+            
+        }
+
+        div p:nth-child(2){
+            color: violet;
+        }
+
+        
+        ::placeholder{
+            color: tomato;
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+
+    <p>Platzi</p>
+
+    <div>
+        <p>Platzi</p>
+        <p>Master</p>
+        <p>Lo mejor</p>
+    </div>
+
+    <input type="text" name="" placeholder="nombre" id="">
+    
+</body>
+</html>
