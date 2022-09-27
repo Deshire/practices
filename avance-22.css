@@ -1,0 +1,218 @@
+.widget .product-description .product-title,
+.content .product-excerpt {
+    -webkit-box-orient: vertical;
+}
+
+/* texto de seccion inicio */
+.widget_widget_destacados_list_3 .featured_posts_wrap .product-excerpt {
+	font-size: 16px;
+}
+
+.widget .product-description {
+	font-size: 13px;
+}
+
+.widget_widget_destacados_list .featured_posts_wrap .product-excerpt {
+	font-size: 16px;
+}
+
+/* espacio */
+#sidebar-home , .sidebar .title_section {
+    margin-top: -0.5em;
+}
+
+/* fuente de ultimas noticias */
+
+#sidebar-home .widget_products_slider_widget .product-description .product-title{
+	font-weight: 700;
+}
+
+#sidebar-home .widget.widget_widget_edicion h3.title_section{
+	
+   font-size: 23px !important;
+	 line-height: normal;
+   padding: 10px !important;
+}
+
+/* boton leer edicion */
+#sidebar-home 
+.widget.widget_widget_edicion 
+.rows-btn-ediciones .btn-leer-edicion:hover{
+	color: #2691aa;
+	background: #fff;
+}
+
+/* seccion edicion */
+#sidebar-home .widget.widget_widget_edicion .list-unstyled{
+    margin-top: 50px;
+}
+
+.content 
+a:not(.select2-choice):not(.btn):not(button#home):not(#pagar-now):not(#btn-back):not(a.add_to_wishlist):hover {
+    color: #fff;
+}
+
+/* espacio de ultimas noticias */
+
+section.extendedwopts-hide.extendedwopts-tablet.extendedwopts-mobile.widget.section.products_slider_widget-1.widget_products_slider_widget {
+    padding-top: 1.5em;
+}
+
+
+/* leyenda */
+
+.subtitulo{
+    margin-bottom: 2.2em;
+    margin-top: -14px;
+    font-style: italic;
+}
+
+body:not(.home) .main .hentry .wp-caption .wp-caption-text{
+    margin-top: -0.15em;
+}
+
+
+/* para h1 entradas */
+
+body:not(.home) .main .hentry .page-header h1{
+	font-size: 35px;
+}
+
+/* para h2 entradas */
+body:not(.home) .main .hentry .entry-content h2{
+	line-height: 1.1;
+}
+
+/* espacio de parrafo */
+body:not(.home) .main .hentry .entry-content p{
+    margin-bottom: 2em;
+}
+
+/* seccion autor */
+body:not(.home) .sidebar.left .sss{
+	    font-size: 12px;
+	    line-height: 1.5;
+}
+
+body:not(.home) .sidebar.left .shareaholic-share-buttons-container.shareaholic-mini ul.shareaholic-share-buttons:before{
+	font-size: 13px;
+}
+
+body:not(.home) .sidebar.left .sss time.updated.timeago {
+    font-size: 0.8em;
+}
+
+/* para telefonos */
+
+@media (max-width: 767.98px)
+{
+	 body:not(.home) .main .hentry .page-header h1
+	{
+	font-size: 25px;
+	}
+
+body:not(.home) .sidebar.left {
+ display: none;
+
+}
+	
+ aside.sidebar.left.autores{
+            display: block;
+        }
+	
+	img.avatar.avatar-120.photo.img-fluid.br-100{
+		width: 70px;
+	}
+	
+	body:not(.home) .sidebar.left .sss{
+		font-size: 12px !important;
+	}
+	
+	body:not(.home) .sidebar.left .sss time.updated{
+		font-size: 12px;
+	}
+	
+	time.updated.timeago.clearfix {
+    padding-top: 5px;
+}
+	
+	body:not(.home) .sidebar.left .shareaholic-share-buttons-container.shareaholic-mini ul.shareaholic-share-buttons:before{
+		font-size: 12px;
+	}
+	
+}
+
+/* hover info correo */
+.content a:not(.select2-choice):not(.btn):not(button#home):not(#pagar-now):not(#btn-back):not(a.add_to_wishlist):hover {
+    color: #065061;
+}
+
+/* imagen del autor */
+body:not(.home) .sidebar.left img.img-fluid, body:not(.home) .sidebar.left img.wp-caption {
+    width: 80px;
+}
+
+/* tiempo lectura */
+
+time.updated.timeago.clearfix{
+    display: initial;
+}
+
+
+/* para moviles  desde 1260 px */
+
+ @media (min-width: 1260px) {
+      
+	 header.banner .container-full .social_logo_carrito .logo img{    
+    height: 65px;
+        }
+	 
+ }
+
+/* pruebas con tamaños pequeños */
+ @media (max-width: 341px) {
+	 
+     .my-0.py-1.col-10.col-md-auto.ml-md-auto.mr-auto {
+    padding: 0 !important;
+    margin: 0 !important;
+    flex: none;
+    width: auto;
+
+}
+	 
+	 header.banner .container-full .social_logo_carrito .logo img
+{
+    height: 34px;
+		width: 98px
+}
+	 
+.col-auto.col-md-2.text-left {
+    padding-right: 12px;
+}
+  }
+
+
+ @media (min-width: 768px) {
+            aside.sidebar.left.autores{
+            display: none;
+        }
+}
+
+#sidebar-home
+ section
+ .extendedwopts-hide
+ .extendedwopts-tablet
+ .extendedwopts-mobile.bg_gris.widget.section.text-13.widget_text center
+ {
+	height: 98px; 
+}
+
+img.alignnone.wp-image-165.size-medium {
+    width: auto;
+    height: 48px;
+}
+
+
+
+
+
